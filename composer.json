@@ -5,7 +5,32 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4"
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/adminimal_admin_toolbar": "^1.10",
+        "drupal/crop": "^1.5",
+        "drupal/ctools": "^3.2",
+        "drupal/date": "1.x-dev",
+        "drupal/default_content": "^1.0@alpha",
+        "drupal/devel": "^2.1",
+        "drupal/disqus": "^1.0@RC",
+        "drupal/dropzonejs": "^2.0@alpha",
+        "drupal/ds": "^3.4",
+        "drupal/easy_breadcrumb": "^1.12",
+        "drupal/exclude_node_title": "^1.0@beta",
+        "drupal/extlink": "^1.1",
+        "drupal/field_formatter_class": "^1.1",
+        "drupal/field_group": "^1.0",
+        "drupal/file_browser": "^1.2",
+        "drupal/focal_point": "^1.2",
+        "drupal/google_analytics": "^3.0",
+        "drupal/honeypot": "^1.29",
+        "drupal/image_effects": "^2.3",
+        "drupal/image_widget_crop": "^2.2",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/libraries": "^3.0@alpha",
+        "drupal/linkit": "^4.3",
+        "drupal/context": "^4.0@beta"
     },
     "replace": {
         "drupal/core": "^8.7"
