@@ -1,0 +1,11 @@
+{
+    "name": "drupal/pagerer",
+    "type": "drupal-module",
+    "description": "Configurable pager styles.",
+    "require": {
+        "php": ">=7.1",
+        "drupal/core": "^8.8 || ^9",
+        "drupal/jquery_ui_button": "*",
+        "drupal/jquery_ui_slider": "*"
+    }
+}
