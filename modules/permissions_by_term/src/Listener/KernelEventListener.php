@@ -10,7 +10,6 @@ use Drupal\permissions_by_term\Service\AccessCheck;
 use Drupal\permissions_by_term\Service\AccessStorage;
 use Drupal\permissions_by_term\Service\TermHandler;
 use Drupal\taxonomy\Entity\Term;
-use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\RedirectResponse;
