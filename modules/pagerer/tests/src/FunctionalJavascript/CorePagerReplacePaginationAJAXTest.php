@@ -26,7 +26,7 @@ class CorePagerReplacePaginationAJAXTest extends PaginationAJAXTest {
   /**
    * {@inheritdoc}
    */
-  protected function setUp() {
+  protected function setUp(): void {
     parent::setUp();
 
     // Add a 'core_replace' pagerer preset.

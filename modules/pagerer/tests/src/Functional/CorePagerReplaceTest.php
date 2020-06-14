@@ -33,7 +33,7 @@ class CorePagerReplaceTest extends PagerTest {
   /**
    * {@inheritdoc}
    */
-  public function setUp() {
+  public function setUp(): void {
     BrowserTestBase::setUp();
 
     // Insert 300 log messages.

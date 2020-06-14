@@ -4,7 +4,7 @@ name: 'Pagerer Test'
 description: 'Support module for Pagerer tests.'
 package: Testing
 
-# Information added by Drupal.org packaging script on 2020-03-24
-version: '8.x-2.0-rc1'
+# Information added by Drupal.org packaging script on 2020-05-12
+version: '8.x-2.0'
 project: 'pagerer'
-datestamp: 1585047903
+datestamp: 1589289361

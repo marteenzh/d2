@@ -36,7 +36,7 @@ class PagererTest extends BrowserTestBase {
   /**
    * {@inheritdoc}
    */
-  public function setUp() {
+  public function setUp(): void {
     parent::setUp();
 
     // Insert 300 log messages.
@@ -759,9 +759,9 @@ class PagererTest extends BrowserTestBase {
           ':pager' => 'test-pager-' . $test['pager_id'],
           ':items' => 'pager__items',
         ]);
-        $this->assertContains($test[$match_querystring], $elements[0]->getAttribute('href'), "Test $id");
+        $this->assertStringContainsString($test[$match_querystring], $elements[0]->getAttribute('href'), "Test $id");
         $elements[0]->click();
-        $this->assertContains('pager-test/multiple-pagers' . $test[$match_querystring], $this->getUrl(), "Test $id");
+        $this->assertStringContainsString('pager-test/multiple-pagers' . $test[$match_querystring], $this->getUrl(), "Test $id");
       }
     }
   }

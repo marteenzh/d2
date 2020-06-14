@@ -26,7 +26,7 @@ class CorePagerReplaceCommentInterfaceTest extends CommentInterfaceTest {
   /**
    * {@inheritdoc}
    */
-  public function setUp() {
+  public function setUp(): void {
     parent::setUp();
 
     $this->drupalLogin($this->drupalCreateUser([
